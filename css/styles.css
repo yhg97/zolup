@@ -3,15 +3,19 @@
 }
 
 body {
-  background-color: antiquewhite;
+  background-color: rgba(53, 40, 40, 0.233);
   margin: 0;
   min-width: 992px;
   font-family: "Helvetica";
 }
 
 .navbar{
+  background-color: rgb(253, 253, 253);
   height: 60px;
   padding-left: 30px;
+}
+.firstpage{
+  float: center;
 }
 
 .logo{
@@ -22,7 +26,6 @@ body {
 .logo img{
   vertical-align: middle;
 }
-
 .navbar ul{
   float: right;
 }
