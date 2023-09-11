@@ -11,11 +11,13 @@ body {
 
 .navbar{
   background-color: rgb(253, 253, 253);
-  height: 60px;
+  height: 70px;
   padding-left: 30px;
 }
-.firstpage{
-  float: center;
+.firstpage img{
+  width: 150px;
+  height: 70px;
+  float: left;
 }
 
 .logo{
@@ -44,7 +46,7 @@ body {
 }
 
 .hero_header{
-  height: 450px;
+  height: 100%;
   width: 100%;
 }
 
@@ -88,7 +90,7 @@ body h1{
   clear: both;
 }
 
-.footer{
+/*.footer{
   text-align: center;
 }
 
@@ -98,4 +100,7 @@ body h1{
   margin-bottom: 80px;
   margin-left: 10px;
   margin-right: 10px;
+}*/
+.navyBtn{
+  text-align: center;
 }
