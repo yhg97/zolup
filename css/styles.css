@@ -10,24 +10,23 @@ body {
 }
 
 .navbar{
-  background-color: rgb(253, 253, 253);
+  background-color: rgb(0, 0, 0);
   height: 70px;
   padding-left: 30px;
+  font-family: 'cafe24';
 }
+/*상단 메뉴바 왼쪽 WWT*/
 .firstpage img{
   width: 150px;
   height: 70px;
   float: left;
 }
 
-.logo{
-  line-height: 60px;
+/*상단 메뉴 왼쪽바*/
+.navbar ul#navbar_left{
   float: left;
 }
 
-.logo img{
-  vertical-align: middle;
-}
 .navbar ul{
   float: right;
 }
@@ -35,14 +34,15 @@ body {
 .navbar li{
   list-style-type: none;
   float: left;
-  margin-right: 30px;
+  margin-right: 35px;
 }
 
 .navbar a{
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-style: bold;
-  font-size: 13px;
+  font-size: 16px;
+  line-height: 2;
 }
 
 .hero_header{
@@ -101,6 +101,15 @@ body h1{
   margin-left: 10px;
   margin-right: 10px;
 }*/
+/* 제일 아래 버튼*/
 .navyBtn{
   text-align: center;
+}
+
+/*폰트 정리*/
+@font-face {
+    font-family: 'cafe24'; /*font 이름*/
+    font-style: 'normal'; /* font 스타일 정의 (기울임, 일반) */
+    font-weight: 400; /* font 굵기 정의 */
+    src: url(/font/Cafe2.otf);
 }
