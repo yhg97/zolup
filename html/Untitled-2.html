@@ -27,58 +27,27 @@
     
     <img class="hero_header" src="/images/hero_header.jpg">
     <h1>현대 기아 제품군</h1>
-    <div class="products">
-      <a href="/html/K9.html">
-        <img src="/images/k9.png">
-        <p>K9</p>
-        <p class="price">클릭시 제품군 설명</p>
-      </a>
-      <a href="/html/benu.html">
-        <img src="/images/benu.png">
-        <p>베뉴</p>
-        <p class="price">클릭시 제품군 설명</p>
-      </a>
-      <a href="/html/kona.html">
-        <img src="/images/kona.png">
-        <p>코나</p>
-        <p class="price">클릭시 제품군 설명</p>
-      </a>
-      <a href="/html/tucson.html">
-        <img src="/images/tucson.png">
-        <p>투싼</p>
-        <p class="price">클릭시 제품군 설명</p>
-      </a>
-      <a href="/html/santafe.html">
-        <img src="/images/santafe.png">
-        <p>싼타페</p>
-        <p class="price">클릭시 제품군 설명</p>
-      </a>
-      <a href="#">
-        <img src="/images/pelisade.png">
-        <p>펠리세이드</p>
-        <p class="price">클릭시 제품군 설명</p>
-      </a>
-      <a href="#">
-        <img src="/images/niro.png">
-        <p>니로</p>
-        <p class="price">클릭시 제품군 설명</p>
-      </a>
-      <a href="#">
-        <img src="/images/seltos.png">
-        <p>셀토스</p>
-        <p class="price">클릭시 제품군 설명</p>
-      </a>
-      <a href="#">
-        <img src="/images/sportage.png">
-        <p>스포티지</p>
-        <p class="price">클릭시 제품군 설명</p>
-      </a>
+    <div id="map" style="width:500px;height:400px;"></div>
+	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=52aa4cfae3eff22b400cf60fac1df79a"></script>
+	<script>
+		var container = document.getElementById('map');
+		var options = {
+			center: new kakao.maps.LatLng(33.450701, 126.570667),
+			level: 3
+		};
+
+		var map = new kakao.maps.Map(container, options);
+	</script>
+
+
+
+      <!--</a> 버튼
       <button type="button" class="navyBtn" onClick="location.href='/html/Untitled-1.html'">이전 페이지</button>
       <button type="button" class="navyBtn" onClick="location.href='/html/Untitled-3.html'">다음 페이지</button>
       <div class="clearfix"></div>
     </div>
     
-    <!--<div class="footer">
+    <div class="footer">
       <a href="#"><img src="images/facebook.png"></a>
       <a href="#"><img src="images/instagram.png"></a>
       <a href="#"><img src="images/twitter.png"></a>
