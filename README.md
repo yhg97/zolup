@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+# <!DOCTYPE html>
 <html>
   <head>
     <title>부천대학교 캡스톤</title>
@@ -7,9 +7,8 @@
   </head>
   
   <body>
-    
     <div class="navbar">
-      <a class="firstpage" href="/index.html">
+       <a class="firstpage" href="/html/Untitled-1.html">
        <img src="/images/firstpage.PNG">
        </a>
       <ul>
@@ -18,36 +17,55 @@
         <li><a href="#">로그인</a></li>
         <li><a href="#">회원가입</a></li>
       </ul>
-    </div>   
-    <div class="navbar_left">
-      <ul>
-        <li><a href="/html/Untitled-1.html">택시정보</a></li>
-        <li><a href="/html/Untitled-2.html">나라별 운임료</a></li>
-        <li><a href="/html/Untitled-3.html">게시판</a></li>
-      </ul>
-    </div> 
+    </div>    
     <img class="hero_header" src="/images/hero_header.jpg">
-
-
-    
-    <div id="map" style="width:500px;height:400px;"></div>
-	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=52aa4cfae3eff22b400cf60fac1df79a"></script>
-	<script>
-		var container = document.getElementById('map');
-		var options = {
-			center: new kakao.maps.LatLng(33.450701, 126.570667),
-			level: 3
-		};
-
-		var map = new kakao.maps.Map(container, options);
-	</script>
-</html>
-</div>
-
-
-    <!--<h1>부천대학교 캡스톤디자인</h1>
+    <h1>현대 기아 제품군</h1>
     <div class="products">
-         
+      <a href="/html/casper">
+        <img src="/images/casper.png">
+        <p>캐스퍼</p>
+        <p class="price">클릭시 제품군 설명</p>
+      </a>
+      <a href="/html/morning">
+        <img src="/images/morning.png">
+        <p>모닝</p>
+        <p class="price">클릭시 제품군 설명</p>
+      </a>
+      <a href="/html/ray.html">
+        <img src="/images/ray.png">
+        <p>레이</p>
+        <p class="price">클릭시 제품군 설명</p>
+      </a>
+      <a href="/html/avante.html">
+        <img src="/images/avante.png">
+        <p>아반떼</p>
+        <p class="price">클릭시 제품군 설명</p>
+      </a>
+      <a href="/html/sonata.html">
+        <img src="/images/sonata.png">
+        <p>쏘나타</p>
+        <p class="price">클릭시 제품군 설명</p>
+      </a>
+      <a href="/html/granger.html">
+        <img src="/images/granger.png">
+        <p>그랜저</p>
+        <p class="price">클릭시 제품군 설명</p>
+      </a>
+      <a href="/html/K3.html">
+        <img src="/images/K3.png">
+        <p>K3</p>
+        <p class="price">클릭시 제품군 설명</p>
+      </a>
+      <a href="/html/K5.html">
+        <img src="/images/K5.png">
+        <p>K5</p>
+        <p class="price">클릭시 제품군 설명</p>
+      </a>
+      <a href="/html/K8.html">
+        <img src="/images/K8.png">
+        <p>K8</p>
+        <p class="price">클릭시 제품군 설명</p>
+      </a>
       
       <button type="button" class="navyBtn" onClick="location.href='/html/Untitled-2.html'">다음 페이지</button>
       <div class="clearfix"></div>
@@ -57,8 +75,6 @@
       <a href="#"><img src="images/facebook.png"></a>
       <a href="#"><img src="images/instagram.png"></a>
       <a href="#"><img src="images/twitter.png"></a>
-      -->
     </div>
-    
   </body>
 </html>
