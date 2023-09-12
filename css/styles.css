@@ -10,9 +10,10 @@ body {
 }
 
 .navbar{
-  background-color: rgb(253, 253, 253);
+  background-color: rgb(0, 0, 0);
   height: 70px;
   padding-left: 30px;
+  border-bottom: solid 3px white;
 }
 .firstpage img{
   width: 150px;
@@ -40,9 +41,37 @@ body {
 
 .navbar a{
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
   font-style: bold;
   font-size: 13px;
+}
+.navbar_left{
+  font-family: 'navbar left';
+  background-color: #000000;
+  width:100%;height:58px; 
+}
+.navbar_left ul{
+  float: left;
+  background-color:#000000;
+  padding:1px 5px 5px 5px;
+  
+}
+
+
+.navbar_left a{
+  font-family: 'navbar left';
+  color:#ffffff;
+  font-size:9pt;
+  }
+.navbar_left li{
+  display:inline;
+ border-left: 2px solid #c0c0c0;
+ padding: 0px 10px 0px 5px;
+ margin: 5px 0px 5px 0px;
+
+}
+.navbar_left ul li:first-child{
+  border-left: none;
 }
 
 .hero_header{
@@ -103,4 +132,8 @@ body h1{
 }*/
 .navyBtn{
   text-align: center;
+}
+@font-face {
+  font-family: 'navbar left';
+  src: url(/font/Cafe2.otf);
 }
