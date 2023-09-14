@@ -7,6 +7,7 @@ import Input from "./pages/Input";
 import Input2 from "./pages/Input2";
 import List from "./pages/List";
 
+
 function App() {
   return (
     <div className="App">
@@ -27,3 +28,5 @@ function App() {
 }
 
 export default App;
+
+
