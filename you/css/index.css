@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(53, 40, 40, 0.233);
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+.navbar{
+  background-color: rgb(0, 0, 0);
+  height: 70px;
+  padding-left: 30px;
+  font-family: 'cafe24';
+}
+/*상단 메뉴바 왼쪽 WWT*/
+.firstpage img{
+  width: 150px;
+  height: 70px;
+  float: left;
+}
+
+/*상단 메뉴 왼쪽바*/
+.navbar ul#navbar_left{
+  float: left;
+}
+
+.navbar ul{
+  float: right;
+}
+
+.navbar li{
+  list-style-type: none;
+  float: left;
+  margin-right: 35px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: bold;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.hero_header{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.hero_header img{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.hero_header_text{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate( -50%, -50% );
+    color: white;
+    margin: 0;
+}
+
+body h1{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 24px;
+  font-style: bold;
+  color: #545454;
+}
+
+.products {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  width: 1300px;
+  text-align: center;
+}
+
+.products img{
+  width: 410px;
+  height: 225px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.products a{
+  text-decoration: none;
+  color: black;
+  float: left;
+  font-size: 16px;
+}
+
+.price{
+  margin-top: 4px;
+  margin-bottom: 80px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+/*.footer{
+  text-align: center;
+}
+
+.footer img{
+  margin-top: 40px;
+  height: 20px;
+  margin-bottom: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+}*/
+/* 제일 아래 버튼*/
+.navyBtn{
+  text-align: center;
+}
+
+/*폰트 정리*/
+@font-face {
+    font-family: 'cafe24'; /*font 이름*/
+    font-style: 'normal'; /* font 스타일 정의 (기울임, 일반) */
+    font-weight: 400; /* font 굵기 정의 */
+    src: url(/font/Cafe2.otf);
+}
+
+
+
